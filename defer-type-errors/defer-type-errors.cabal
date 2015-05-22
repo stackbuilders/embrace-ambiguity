@@ -1,0 +1,28 @@
+name:                defer-type-errors
+version:             0.0.0.1
+synopsis:            Compiles a program with type errors
+description:
+        You can successfully compile a Haskell program that contains
+        inconsistent types (type errors) by specifying the
+        -fdefer-type-errors option to GHC.
+
+license:             MIT
+license-file:        LICENSE
+author:              Justin Leitgeb
+homepage:            https://github.com/stackbuilders/accept-inconsistency
+maintainer:          justin@stackbuilders.com
+copyright:           2015 Justin Leitgeb
+category:            Text
+build-type:          Simple
+cabal-version:       >=1.10
+
+source-repository head
+  type:            git
+  location:        https://github.com/stackbuilders/accept-inconsistency.git
+
+library
+  exposed-modules:     DeferTypeErrors
+
+  ghc-options:         -Wall -fdefer-type-errors
+  build-depends:       base >=4.2 && <4.9
+  default-language:    Haskell2010
