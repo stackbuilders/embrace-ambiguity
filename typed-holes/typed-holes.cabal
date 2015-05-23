@@ -9,7 +9,7 @@ description:
 license:             MIT
 license-file:        LICENSE
 author:              Justin Leitgeb
-homepage:            https://github.com/stackbuilders/accept-inconsistency
+homepage:            https://github.com/stackbuilders/embrace-ambiguity
 maintainer:          justin@stackbuilders.com
 copyright:           2015 Justin Leitgeb
 category:            Text
@@ -18,7 +18,7 @@ cabal-version:       >=1.10
 
 source-repository head
   type:            git
-  location:        https://github.com/stackbuilders/accept-inconsistency.git
+  location:        https://github.com/stackbuilders/embrace-ambiguity.git
 
 library
   exposed-modules:     TypedHoles
