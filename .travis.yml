@@ -1,7 +1,7 @@
 ---
 env:
   - "CABALVER=1.22 GHCVER=7.10.1 TEST_DIR=defer-type-errors"
-  - "CABALVER=1.22 GHCVER=7.10.1 TEST_DIR=partial-type-signatures"
+  - "CABALVER=1.22 GHCVER=7.10.1 TEST_DIR=partial-type-signature"
   - "CABALVER=1.22 GHCVER=7.10.1 TEST_DIR=typed-holes"
 install:
   - "travis_retry sudo add-apt-repository -y ppa:hvr/ghc"
